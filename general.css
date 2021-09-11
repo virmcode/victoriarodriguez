@@ -1,0 +1,287 @@
+    /* fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:ital,wght@0,500;0,700;1,100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Raleway:ital,wght@0,500;0,700;1,100&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Serif+Pro&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&display=swap');
+    @font-face {
+        font-family: 'ZenTokyoZoo';
+        src: url(./fonts/ZenTokyoZoo-Regular.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Arvo-regular';
+        src: url(./fonts/Arvo-Regular.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Cabin";
+        src: url(./fonts/Cabin-VariableFont_wdth\,wght.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "IndieFlower";
+        src: url(./fonts/IndieFlower-Regular.ttf);
+        font-weight: 700;
+        font-style: bold;
+    }
+    @font-face {
+        font-family: "IndieFlower";
+        src: url(./fonts/IndieFlower-Regular.ttf);
+        font-weight: 700;
+        font-style: bold;
+    }
+    @font-face {
+        font-family: "PatrickHand";
+        src: url(./fonts/PatrickHand-Regular.ttf);
+        font-weight: 700;
+        font-style: bold;
+    }
+    @font-face {
+        font-family: "Questrial-Regular";
+        src: url(./fonts/Questrial-Regular.ttf);
+        font-weight: 500;
+        font-style: medium;
+    }
+    @font-face {
+        font-family: "Poppins-Medium";
+        src: url(./fonts/Poppins-Medium.ttf);
+        font-weight: 500;
+        font-style: medium;
+    }
+    @font-face {
+        font-family: "Cabin-VariableFont";
+        src: url(./fonts/Cabin-VariableFont_wdth\,wght.ttf);
+        font-weight: 500;
+        font-style: medium;
+    }
+    @font-face {
+        font-family: "Spartan-SemiBold";
+        src: url(./fonts/Spartan-SemiBold.ttf);
+        font-weight: 700;
+        font-style: semi-bold;
+    }
+    @font-face {
+        font-family: "BalsamiqSans-Regular";
+        src: url(./fonts/BalsamiqSans-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "ZillaSlab-Regular";
+        src: url(./fonts/ZillaSlab-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Quattrocento-Bold";
+        src: url(./fonts/Quattrocento-Bold.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "PlayfairDisplay-VariableFont";
+        src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Lobster-Regular";
+        src: url(./fonts/Lobster-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Quesha";
+        src: url(./fonts/Quesha.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Evergreen";
+        src: url(./fonts/Evergreen.otf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Magnolia";
+        src: url(./fonts/Magnolia\ Script.otf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "AllertaStencil";
+        src: url(./fonts/AllertaStencil-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Kodchasan-Bold";
+        src: url(./fonts/Kodchasan/Kodchasan-Bold.ttf);
+        font-weight: 700;
+        font-style: bold;
+    }
+
+/* HTML */
+html {
+    scroll-behavior: smooth;
+  }
+    /* fonts */
+    /* html{
+        overflow:hidden ;
+        }
+         */
+    /* header */
+    #header {
+        height: 70px;
+        background: linear-gradient(45deg, rgba(0, 26, 255, 0.603) 30%, rgba(255, 0, 0, 0.514));
+        margin: -15px;
+        padding-left: 25px;
+        border-bottom: 5px solid;
+        border-image: conic-gradient( rgba(0, 0, 255, 0.603), rgba(255, 0, 0, 0.514) ) 1; 
+    }
+    /* header */
+    
+    body {
+        background-repeat: no-repeat;
+        /* background: linear-gradient(rgba(0, 255, 213, 0.377), rgba(0, 0, 255, 0.397), rgba(255, 0, 0, 0.329)); */
+    }
+
+    
+
+    h3 {
+        font-family: "ZenTokyoZoo";
+        color: white;
+        text-transform: uppercase;
+        margin: 0px auto;
+        padding-top: 15px;
+        font-size: 45px;
+    }
+    
+    #menuNav {
+        float: right;
+        list-style: none;
+    }
+    
+    #header li a {
+        display: block;
+        text-decoration: none;
+    }
+    
+    main {
+        background: url(./imagenes/program1.jpg); 
+        background-size: 50% 100%;
+        height: 92vh;
+        width: 99vw;
+        margin: -8px;
+        margin-top: -8px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /* main::before {    
+        content: "";
+        background-color: rgba(0, 0, 0, 0.822);
+        background-size: cover;
+        position: absolute;
+        z-index: 2;
+        top: 80px;
+        right: 0px;
+        bottom: -90x;
+        left: 0px;
+        opacity: 0.75;
+  } */
+    .infoDivs{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 15px;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(rgb(119, 0, 255),rgb(10, 224, 196) );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+    transition: 300ms;
+
+    }
+
+    /* .pMain{
+        text-align: center;
+    } */
+    .pMain a{
+        text-decoration: none;
+        color: white;
+          margin: 0px auto;
+        font-family: "Cabin";
+        font-size: 40px;
+    }
+
+#portfolio{
+    background-image: linear-gradient( 45deg, rgb(10, 8, 12) 35%,rgb(255, 255, 255) );
+    border: 9px solid;
+    border-image: conic-gradient( rgba(0, 0, 0, 0.329), rgb(0, 0, 0), rgba(255, 255, 255, 0.787), rgb(255, 255, 255), rgb(54, 54, 54), rgb(0, 0, 0) ) 1;
+}
+#blog{
+    background-image: linear-gradient( rgb(145, 43, 17) 20%,rgb(17, 0, 252) );
+    border: 9px solid;
+    border-image: conic-gradient( rgba(9, 0, 54, 0.98), rgba(0, 2, 114, 0.92), rgba(0, 4, 255, 0.86), rgba(255, 0, 0, 0.904), rgba(80, 0, 0, 0.5), rgba(80, 0, 0, 0.5),rgba(255, 0, 0, 0.904), rgba(0, 4, 255, 0.86), rgba(0, 2, 114, 0.92), rgba(9, 0, 54, 0.98) ) 1;
+
+}
+#contacto{
+    background: linear-gradient(220deg, rgb(16, 163, 119) 30%,rgb(102, 14, 202) );
+    border: 9px solid;
+    border-image: conic-gradient( rgba(140, 0, 255, 0.329), rgb(98, 0, 255), rgb(11, 182, 159), rgb(10, 180, 123), rgb(10, 218, 148), rgb(93, 1, 199) ) 1;
+    }
+ 
+
+@keyframes showContactame{
+  from {
+    transform: translateY(-300%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+#infoDivs:hover .contactame{
+    animation: showContactame  linear;
+    animation-duration: 300ms;
+}
+    /* FOOTER */
+
+      footer{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(45deg, rgba(0, 0, 255, 0.603), rgba(255, 0, 0, 0.514));
+        width: 100vw;
+        height: auto;
+        margin-left: -8px;
+        margin-top: -1px;
+        align-items: center;
+        padding-bottom: 10%;
+
+      }
+
+
+    h5 {
+        background: linear-gradient(45deg, rgba(255, 0, 0, 0.514), rgba(0, 0, 255, 0.603));
+        padding: 15px;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 15px;
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 30px;
+        font-family: "Kodchasan-Bold";
+        text-shadow: 2px 2px 4px black;
+        color: white;
+        font-size: 40px;
+      }
+
